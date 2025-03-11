@@ -15,7 +15,7 @@ export const DeleteModal = ({ deleteProduct }) => (
         </AlertDialog.Title>
         <AlertDialog.Description className="mt-4 mb-5 text-[15px] leading-normal">
           This action cannot be undone. This will permanently delete this
-          product from our servers!
+          product from our servers
         </AlertDialog.Description>
         <div className="flex justify-end gap-[25px]">
           <AlertDialog.Cancel asChild>
